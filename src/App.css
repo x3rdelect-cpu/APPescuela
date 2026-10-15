@@ -1,0 +1,20 @@
+/* Estilos personalizados para las tarjetas de alumnos */
+.card-alumno {
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card-alumno:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.card-alumno .card-header {
+    background: linear-gradient(135deg, #0d6efd 0%, #0043a8 100%);
+}
+
+/* Espaciado general del contenedor principal */
+body {
+    background-color: #f4f6f9;
+}
